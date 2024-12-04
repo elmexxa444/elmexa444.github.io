@@ -1,0 +1,99 @@
+/* Estilo personalizado para el logo */
+.logo {
+    max-width: 150px;
+}
+
+/* Estilo general de formularios */
+#contactForm input, #contactForm textarea {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+/* Pie de página */
+footer {
+    background: #333;
+    color: #fff;
+    padding: 15px;
+}
+
+
+/* Ajustes de las imágenes */
+#mision img, #vision img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Ajustes del contenedor */
+#valores {
+    background-color: #f8f9fa; /* Color de fondo suave */
+    padding: 40px 0;
+}
+
+/* Estilo para los textos de misión, visión y valores */
+#mision p, #vision p, #valores p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
+
+/* Estilo base: secciones ocultas inicialmente */
+.fade-in {
+    opacity: 0;
+    transform: translateY(50px); /* Desplaza la sección hacia abajo inicialmente */
+    transition: opacity 1s ease-out, transform 1s ease-out; /* Transición suave */
+}
+
+/* Estilo cuando la sección es visible */
+.fade-in.visible {
+    opacity: 1;
+    transform: translateY(0); /* Vuelve a su posición original */
+}
+
+
+#contacto {
+    background-color: #f8f9fa;
+    padding: 40px;
+    border-radius: 10px;
+  }
+  
+  #contacto h2 {
+    color: #007bff;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  #contacto .form-control {
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+  }
+  
+  #contacto .btn {
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  #contacto ul li {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+  }
+  
+  #contacto ul li i {
+    color: #007bff;
+    margin-right: 8px;
+  }
+
+  
+  #contacto .btn {
+    display: inline-flex;
+    align-items: center;
+    font-size: 1.1rem;
+    padding: 10px 15px;
+  }
+  
+  #contacto .btn i {
+    margin-right: 8px;
+    font-size: 1.3rem;
+  }
+  
